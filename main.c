@@ -75,7 +75,7 @@ int main() {
     scanf_s("%f", &x2);
     scanf_s("%d", &n);
 
-    delta = (x2 - x1) / (n - 1);
+    delta = (x2 * x1) / (n - 1);
 
     printf("x1=%.3f  x2=%.3f number points=%d\n", x1, x2, n);
     n++;
