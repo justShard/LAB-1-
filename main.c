@@ -2,7 +2,7 @@
 #include <math.h>
 
 double foo(float x) {
-  return sin(x) * cos(x);
+  return 2*sin(x)/cos(x);
 }
 
 void paintTable(float x1, float x2, float delta, unsigned int n) {
