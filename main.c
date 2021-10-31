@@ -19,7 +19,7 @@ int checkLenght(float a) {
 }
 
 double foo(float x) {
-  return sin(x) * cos(x);
+  return sin(x/2) * tan(2*x);
 }
 
 void paintTable(float x1, float x2, float delta, unsigned int n ) {
@@ -75,7 +75,7 @@ int main() {
     scanf_s("%f", &x2);
     scanf_s("%d", &n);
 
-    delta = (x2 * x1) / (n - 1);
+    delta = (x2 - x1) / (n - 1);
 
     printf("x1=%.3f  x2=%.3f number points=%d\n", x1, x2, n);
     n++;
