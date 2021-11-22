@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1637571979 source:d:\Ырс\c\3\3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<conio.h>
+	<stdbool.h>
+	<time.h>
+
